@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(42, 49, 49);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    /* top right bottom left */
+    padding: 5% 10% 0 10%
+}
+
+p{
+    padding: 0 20% 0 20%;
+    text-align: justify;
+}
+
+ul{
+    display: inline-block;
+}
