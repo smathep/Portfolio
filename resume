@@ -8,9 +8,9 @@
 <body>
     <div id="menu">
         <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./resume.html">Resume</a></li>
-            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume">Resume</a></li>
+            <li><a href="projects">Projects</a></li>
         </ul>
     </div>
 
@@ -84,5 +84,5 @@
         <li>President's List - Fall 2020; Fall 2021</li>
         <li>Dean's List - Spring 2021</li>
     </ul>
-    
+
 </body>
