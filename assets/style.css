@@ -1,7 +1,8 @@
 :root{
     --purple: rgb(66, 71, 100);
-    --background-color: rgb(37, 46, 46)
-    
+    --background-color: rgb(37, 46, 46);
+    --negativeBodyMargin: -10%;
+    --bodyMargin: 10%;
 }
 
 body{
@@ -9,7 +10,7 @@ body{
     color: white;
     /* text-align: center; */
     font-family: Arial, Helvetica, sans-serif;
-
+    /* margin: 0 var(--bodyMargin); */
     /* padding: 0 5px 0 5px; */
 }   
 h1{
@@ -34,6 +35,8 @@ p{
 
 #menu{
     list-style-type: none;
+    margin: unset;
+
 }
 
 #menu ul {
@@ -70,11 +73,17 @@ p{
 }
 
 #projectPictures{
-    margin: 15px;
+    margin: 5px;
     border: 10px solid var(--purple);
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 80%;
-
+    text-align: center;
+    align-self: center;
+    width: 60%;
 }
+
+#content{
+    margin: 0 10%;
+}
+
