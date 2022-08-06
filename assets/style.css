@@ -87,3 +87,18 @@ p{
     margin: 0 10%;
 }
 
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+ul#horizontal-list{
+    list-style: none;
+    padding-top: 20px;
+}
+ul#horizontal-list li{
+    display: inline;
+    padding-right: 10px;
+}
+
+
