@@ -86,7 +86,7 @@ export default function Resume(){
             <p>Check out the Projects page for more detail!</p>
             <ul>
                 <li><a id="links" href="https://github.com/ClemBotProject/ClemBot">ClemBot</a> - Contributed to a large discord bot, named ClemBot, written in Python and C# and integrating a PostgresSQL DB</li>
-                <li><a id="links" href="https://github.com/smathep/Mandelbr /ot">Mandelbr /ot</a> - Java program that can render the Mandelbr /ot set in different resolutions, locations, zoom factors, and utilizing a variable number of threads</li>
+                <li><a id="links" href="https://github.com/smathep/Mandelbrot">Mandelbrot</a> - Java program that can render the Mandelbrot set in different resolutions, locations, zoom factors, and utilizing a variable number of threads</li>
                 <li><a id="links" href="https://github.com/smathep/GameOfLife">Conway's Game of Life</a> - Created a Life simulation based on Conway's Life in Java that allows user interaction and manipulation</li>
                 <li><a id="links" href="https://fractals.tech">Fractals.tech</a> - Group hackathon project where users can create different types of fractals on a website, modify their parameters and appearance, and download the image. Won a category award for using a .tech domain. </li> 
             </ul>
