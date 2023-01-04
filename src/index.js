@@ -17,21 +17,9 @@ import AppRouter from './AppRouter';
 
 export default function Index(){
 	return (
-		<div>
+		<div >
 			<Navbar />
 			<AppRouter />
-			{/* <BrowserRouter>
-				<Routes>
-					<Route path='/' element={<Layout />} />
-						<Route index element={<Home />} />
-						<Route path="home" element={<Home />} />
-						<Route path="resume" element={<Resume />} />
-						<Route path="projects" element={<Projects />} />
-						<Route path="photography" element={<Photography />} />
-						<Route path="*" element={<NotFound />} />
-					<Route/>
-				</Routes>
-			</BrowserRouter> */}
 		</div>
 	)
 }

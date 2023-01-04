@@ -10,16 +10,16 @@ export default function Resume(){
     return (
         <div>
           {/* <Navbar/> */}
-          <div id="content">
+          <div id="content" >
             
             <h1>My Resume</h1>
             <h2>Contact Information</h2>
             
-            <div class="table">
+            <div class="table" className='centered'>
                 <ul id="horizontal-list">
-                    <li><img src="./assets/resume/email_icon.png" width="30px" style={{"vertical-align": "middle", "margin-right": "8px"}}/> <a id="links" href="mailto:patrick@patricksmathers.com">patrick@patricksmathers.com</a></li>
-                    <li><img src="./assets/resume/LI-In-Bug.png" width="30px" style={{"vertical-align": "middle", "margin-right": "2px"}}/> <a id="links" href="https://www.linkedin.com/in/patrick-smathers/">patrick-smathers</a></li>
-                    <li><img src="./assets/resume/GitHub-Mark-Light-120px-plus.png" width="30px" style={{"vertical-align": "middle", "margin-right": "10px"}}/> <a id="links" href="https://github.com/smathep/">smathep</a></li>
+                    <li><img src="./assets/resume/email_icon.png" width="50px" style={{"vertical-align": "middle", "margin-right": "3px"}}/> <a id="links" href="mailto:patrick@patricksmathers.com">patrick@patricksmathers.com</a></li>
+                    <li><img src="./assets/resume/LI-In-Bug.png" width="50px" style={{"vertical-align": "middle", "margin-right": "1px"}}/> <a id="links" href="https://www.linkedin.com/in/patrick-smathers/">patrick-smathers</a></li>
+                    <li><img src="./assets/resume/GitHub-Mark-Light-120px-plus.png" width="50px" style={{"vertical-align": "middle", "margin-right": "1px"}}/> <a id="links" href="https://github.com/smathep/">smathep</a></li>
                 </ul>
             </div>
             
@@ -30,6 +30,7 @@ export default function Resume(){
                 I started at Clemson University in August 2020 in the School of Computing working towards a B.S. in Computer Science. I am currently in my third and final year at Clemson and will be graduating in May 2023! 
             </p>
             
+            <br/>
             <br/>
             <h2>Work Experience</h2>
             
@@ -42,6 +43,7 @@ export default function Resume(){
                     <li>Created and contributed to APIs in C# to enable investors to better manage their money.</li>
                 </ul>
             </p>
+            <br />
             
             <h3 >Clemson University - School of Computing <img src="./assets/resume/Paw_RGB__Orange.png" width="50px" style={{"vertical-align": "middle"}}/> </h3>
             <p>
@@ -62,7 +64,7 @@ export default function Resume(){
                     <li>Worked alongside a team of UTAs to provide support to students outside of lab and lecture during office hours.</li>
                 </ul>
             </p>
-            
+            <br />
             <h3>Clemson University - Clemson Computing and Information Technology <img src="./assets/resume/Paw_RGB__Orange.png" width="50px" style={{"vertical-align": "middle;"}}/> </h3>
             <p>
                 Laptop Support Technician (January 2021 - December 2021)
@@ -71,6 +73,7 @@ export default function Resume(){
                     <li>Trained new student workers in our protocols and procedures</li>
                 </ul>
             </p>
+            <br />
             <br />
             <h2>Skills</h2>
             <ul>
@@ -81,7 +84,8 @@ export default function Resume(){
                     Exposure to C, Python, HTML/CSS, MySQL, shell scripting, AWS (Route 53, CloudFront, Lambda, S3), Agile Dev., C# 
                 </li>
             </ul>
-            
+            <br />
+            <br />
             <h2>Projects</h2>
             <p>Check out the Projects page for more detail!</p>
             <ul>
@@ -91,6 +95,8 @@ export default function Resume(){
                 <li><a id="links" href="https://fractals.tech">Fractals.tech</a> - Group hackathon project where users can create different types of fractals on a website, modify their parameters and appearance, and download the image. Won a category award for using a .tech domain. </li> 
             </ul>
             
+            <br />
+            <br />
             <h2>Awards/Recognitions</h2>
             <ul>
                 <li>Palmetto Fellows and STEM enhancement (August 2020 - Present)</li>
@@ -102,11 +108,15 @@ export default function Resume(){
                 <li>1 of 100 HSF STEM Summit Invitees - 2022</li>
             </ul>
             
+            <br />
+            <br />
             <h2>Activites</h2>
             <ul>
                 <li>Clemson Photography Club: Spring 2021 - Present</li>
             </ul>
             
+            <br />
+            <br />
             <h2>Interests</h2>
             <ul>
                 <li>Photography</li>

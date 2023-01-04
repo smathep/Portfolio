@@ -13,13 +13,14 @@ export default function Home(){
             <div id="content">
 
                 <br />
-                <h1 style={{"text-align": "center", "background-color": "var(--purple)", "border": "20px solid var(--purple)"}}>Hello! My name is Patrick Smathers</h1>
+                {/* <h1 style={{"text-align": "center", "background-color": "var(--purple)", "border": "20px solid var(--purple)"}}>Hello! My name is Patrick Smathers</h1> */}
+                <h1 style={{"text-align": "center", "background-color": "var(--border-color)", "border": "20px solid var(--border-color)"}}>Hello! My name is Patrick Smathers</h1>
                 
                 
                 <br /><br />
                 {/* <!-- mags suggests using Flex to get better styling --> */}
                 <div style={{"display": "inline-block"}}> 
-                    <img src="./assets/index/portrait.jpeg" alt="Patrick Smathers" width="25%" style={{"float": "right", "margin": "5px", "border": "5px solid var(--purple)"}} />
+                    <img src="./assets/index/portrait.jpeg" alt="Patrick Smathers" width="25%" style={{"float": "right", "margin": "5px", "border": "5px solid var(--border-color)"}} />
                     <h2>About Me:</h2>
                     <p>
                         I am currently in my third and final year at Clemson University working towards a B.S. in Computer Science. I enjoy running and photography in my spare time. Feel free to look around this site to learn more about me, what I've done, and what I'm interested in.
