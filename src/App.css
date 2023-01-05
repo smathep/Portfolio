@@ -38,16 +38,16 @@
   color: #61dafb;
 }
 :root{
-  --purple: rgb(66, 71, 100) !important;
+  --purple: rgb(36, 42, 76) !important;
   --background-color: rgb(37, 46, 46) !important;
   --negativeBodyMargin: -10%;
   --bodyMargin: 10%;
-  --border-color: rgb(36, 42, 76);
+  --border-color: rgba(255, 255, 255, 0.402);
 }
 
 body{
   background-color: var(--background-color) !important;
-  background-image: linear-gradient(to right, rgba(73, 153, 218, 0.5), rgba(124, 43, 206, 0.5)) !important;
+  background-image: linear-gradient(to right, rgba(33, 107, 168, 0.615), rgba(59, 152, 74, 0.381)) !important;
   color: white !important;
   /* color: black !important; */
   /* text-align: center; */
@@ -116,10 +116,14 @@ p{
   text-decoration: none;
 }
 
-#projectPictures{
+.pictureBorder{
+  border: 2px solid var(--border-color) !important;
+}
+
+.projectPictures{
   margin: 5px;
   /* border: 10px solid var(--purple) !important; */
-  border: 2px solid rgba(255, 255, 255, 0.402) !important;
+  /* border: 2px solid rgba(255, 255, 255, 0.402) !important; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -130,7 +134,7 @@ p{
 }
 
 #content{
-  margin: 0 10%;
+  margin: 0 15%;
 }
 
 .centered{
@@ -167,6 +171,7 @@ ul#horizontal-list li{
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  border: 2px solid var(--border-color) !important;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

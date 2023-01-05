@@ -18,11 +18,11 @@ export default function Projects(){
                         The code and documentation for this app is available on <a id="links" href="https://github.com/smathep/Mandelbrot">GitHub</a>.
                         <br/>
                         <br/>
-                        <img id="projectPictures" src="./assets/projects/1xZoom4K.png" alt="Mandelbrot set zoomed out in 4K"/> 
+                        <img className="projectPictures pictureBorder" src="./assets/projects/1xZoom4K.png" alt="Mandelbrot set zoomed out in 4K"/> 
             
-                        <img id="projectPictures" src="./assets/projects/Zoom4K.png" alt="Zoomed in mandelbrot set in 4K"/>
+                        <img className="projectPictures pictureBorder" src="./assets/projects/Zoom4K.png" alt="Zoomed in mandelbrot set in 4K"/>
             
-                        <img id="projectPictures" src='./assets/projects/DeepZoom4K.png' alt="Deep zoomed mandelbrot set in 4K"/>
+                        <img className="projectPictures pictureBorder" src='./assets/projects/DeepZoom4K.png' alt="Deep zoomed mandelbrot set in 4K"/>
                     </p>
                 </div>
                 <br/>
@@ -44,9 +44,9 @@ export default function Projects(){
                     <p>
                         This is a Java program from high school based on John Conway's Game of Life. The user can choose from different preset game board sizes, as well as different preset gameboard setups like boards with oscillators, still lifes, gliders, spaceships, empty grids for customization, or random boards. The user can then control the speed at which the simulaiton runs, pause running, click to change a cell's status, and step through simulation rounds. The code and documentation for this app is available on <a id="links" href="https://github.com/smathep/GameOfLife">GitHub</a>.
             
-                        <img style={{"width": "40%"}} id="projectPictures" src="./assets/projects/GoF-oscillators-small.png"/>
-                        <img style={{"width": "40%"}} id="projectPictures" src="./assets/projects/GoF-random-large.png"/>
-                        <img style={{"width": "60%"}} id="projectPictures" src="./assets/projects/GoF-random-commands.png"/>
+                        <img style={{"width": "40%"}} className="projectPictures pictureBorder" src="./assets/projects/GoF-oscillators-small.png"/>
+                        <img style={{"width": "40%"}} className="projectPictures pictureBorder" src="./assets/projects/GoF-random-large.png"/>
+                        <img style={{"width": "60%"}} className="projectPictures pictureBorder" src="./assets/projects/GoF-random-commands.png"/>
                     </p>
                 </div>
             </div>
