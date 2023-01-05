@@ -12,7 +12,7 @@ export default function Resume(){
           <div id="content" >
             
             <br/>
-            {/* <br/> */}
+            <br/>
             <h1>My Resume</h1>
             <h2>Contact Information</h2>
             
