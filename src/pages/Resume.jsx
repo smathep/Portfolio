@@ -9,9 +9,10 @@ import Navbar from '../Navbar';
 export default function Resume(){
     return (
         <div>
-          {/* <Navbar/> */}
           <div id="content" >
             
+            <br/>
+            {/* <br/> */}
             <h1>My Resume</h1>
             <h2>Contact Information</h2>
             

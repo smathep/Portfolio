@@ -7,7 +7,7 @@ export default function Projects(){
         // <div>Thist</div>
         <div>
             {/* <Navbar /> */}
-            <a id="linkIcon" href="https://github.com/smathep/"> <img src="./assets/resume/GitHub-Mark-Light-120px-plus.png" width="50px" style={{"vertical-align": "middle", "margin": "10px"}}/> </a>
+            <a id="linkIcon" href="https://github.com/smathep/"> <img src="./assets/resume/GitHub-Mark-Light-120px-plus.png" width="50px" style={{"vertical-align": "middle", "margin": "10px 1%"}}/> </a>
             <div id="content">
 
                 <div>
