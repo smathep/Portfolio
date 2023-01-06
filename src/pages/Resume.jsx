@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+// import ReactDOM from 'react-dom/client';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import './index.css';
-import App from '../App';
-import Navbar from '../Navbar';
+// import App from '../App';
+// import Navbar from '../Navbar';
 // import reportWebVitals from '../reportWebVitals';
 
 export default function Resume(){
@@ -11,10 +11,10 @@ export default function Resume(){
         <div>
           <div id="content" >
             
-            <br/>
+            {/* <br/> */}
             <br/>
             <h1>My Resume</h1>
-            <h2>Contact Information</h2>
+            <h2>Contact Info and Links</h2>
             
             <div class="table" className='centered'>
                 <ul id="horizontal-list">
@@ -23,14 +23,21 @@ export default function Resume(){
                     <li><img src="./assets/resume/GitHub-Mark-Light-120px-plus.png" width="50px" style={{"vertical-align": "middle", "margin-right": "1px"}}/> <a id="links" href="https://github.com/smathep/">smathep</a></li>
                 </ul>
             </div>
+            <p className='centered'><a id="links" href="./assets/resume/Resume - Patrick Smathers.pdf">For a downloadable version, click here!</a></p>
             
             <br/>
             <h2>Education <img src="./assets/resume/Paw_RGB__Orange.png" width="50px" style={{"vertical-align": "middle", "padding-bottom": "2px"}}/></h2>  
             
-            <p>
-                I started at Clemson University in August 2020 in the School of Computing working towards a B.S. in Computer Science. I am currently in my third and final year at Clemson and will be graduating in May 2023! 
+            <p style={{"float": "left"}}>
+                Clemson University<br/>
+                B.S. in Computer Science - GPA 3.88
+            </p>
+            <p style={{"float": "right"}}> 
+                Clemson, SC <br></br>
+                May 2023
             </p>
             
+            <br/>
             <br/>
             <br/>
             <h2>Work Experience</h2>
@@ -48,7 +55,7 @@ export default function Resume(){
             
             <h3 >Clemson University - School of Computing <img src="./assets/resume/Paw_RGB__Orange.png" width="50px" style={{"vertical-align": "middle"}}/> </h3>
             <p>
-                Lead Teaching Assistant (January 2022 - Present)
+                Lead Teaching Assistant (January 2022 - May 2022)
                 <br />
                 <ul>
                     <li>Created and scheduled the in-person office hours rooms.</li>
