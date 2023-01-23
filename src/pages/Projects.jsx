@@ -35,7 +35,7 @@ export default function Projects(){
                 <div>
                     <h2>Portfolio Website</h2>
                     <p>
-                        This website was written in HTML and CSS as a way to showcase and present my resume and projects, learn  those two languages, and also learn how to use some services on AWS, such as Amazon S3, Route 53, Lambda, and CloudFront. The source code for this website is available on <a id="links" href="https://github.com/smathep/Portfolio">GitHub</a>.
+                        This website was originally written in HTML and CSS as a way to showcase and present my resume and projects, learn those two languages. Recently, it's be updated to use ReactJS to be able to gain some experience with that framework. This project also gave me an opportunity to learn how to use some services on AWS, such as S3, Route 53, Lambda, CloudFront, and CodeBuild/CodePipeline. This allows me to keep it low cost by hosting a static site on S3, and using CodeBuild and CodePipeline to automatically build the files whenever a new push is made to the Main branch. The source code for this website is available on <a id="links" href="https://github.com/smathep/Portfolio">GitHub</a>.
                     </p>
                 </div>
                 <br/>

@@ -30,7 +30,7 @@ export default function Resume(){
             
             <p style={{"float": "left"}}>
                 Clemson University<br/>
-                B.S. in Computer Science - GPA 3.88
+                B.S. in Computer Science - GPA 3.84
             </p>
             <p style={{"float": "right"}}> 
                 Clemson, SC <br></br>
