@@ -29,7 +29,7 @@ export default function Projects(){
                 <div>
                     <h2>Fractals.tech</h2>
                     <p>
-                        Fractals.tech came about during Clemson's 2022 CUHackit hackathon as a team submission. Our project won the award for best use of a .tech domain at the event. Through this site, you can make several different types of fractals, modify the variables of the equation used to create them, and download the image to your machine. The front end website is written in CSS and HTML, Python for the math and image generation, and a FastAPI written in Python to connect them together. You can find it at <a id="links" href="https://fractals.iapetus11.me">fractals.iapetus.me</a>, hosted on my teammate Milo's website.
+                        Fractals.tech came about during Clemson's 2022 CUHackit hackathon as a team submission. Our project won the award for best use of a .tech domain at the event. Through this site, you can make several different types of fractals, modify the variables of the equation used to create them, and download the image to your machine. The front end website is written in CSS and HTML, Python for the math and image generation, and a FastAPI written in Python to connect them together. You can find it at <a id="links" href="https://fractals.iapetus11.me">fractals.iapetus.me</a>, improved and hosted on my teammate Milo's website.
                     </p>
                 </div>
                 <div>

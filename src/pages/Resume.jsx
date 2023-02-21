@@ -110,7 +110,7 @@ export default function Resume(){
                 <li>Palmetto Fellows and STEM enhancement (August 2020 - Present)</li>
                 <li>President's List - Fall 2020; Fall 2021; Spring 2022</li>
                 <li>Dean's List - Spring 2021</li>
-                <li>CUHackit Hackathon Award (Team Project) - Best Use of a .tech Domain (<a id="links" href="https://fractals.tech">https://fractals.tech</a>)</li>
+                <li>CUHackit Hackathon Award (Team Project) - Best Use of a .tech Domain (<a id="links" href="http://fractals.iapetus11.me">https://fractals.tech</a> - Has been updated and maintined by my friend on his website!)</li>
                 <li>Inducted into to Upsilon Pi Epsilon - International Computer Science Honors Society - Spring 2022</li>
                 <li> <u><abbr title="Hispanic Scholarship Fund">HSF</abbr></u> Scholar Designation: 2021; 2022 </li>
                 <li>1 of 100 HSF STEM Summit Invitees - 2022</li>
