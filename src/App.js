@@ -21,6 +21,7 @@ class App extends React.Component {
 
 	render(){
 		return (
+    			<meta http-equiv="Refresh" content="0; url='https://www.linkedin.com/in/matthewperry-dev/'" />
 			<div className='App' >
 				{/* <Navbar /> */}
 				{/* <Home /> */}
