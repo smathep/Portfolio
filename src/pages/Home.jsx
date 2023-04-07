@@ -30,7 +30,7 @@ export default function Home(){
 
                     <h2>My Skills</h2>
                     <p>
-                        For languages, I have expereince in Java, C++, and C. I also have worked in HTML, CSS (this website was built from scratch using both!), Python, SQL, and C#/.NET. 
+                        For languages, I have experience in Java, C++, and C. I also have worked in HTML, CSS (this website was built from scratch using both!), Python, SQL, and C#/.NET. 
                         For more details on languages, frameworks, and tools I am familar with, check out the <a id="links" href="/resume">Resume</a> page.
                     </p>
                 </div>
