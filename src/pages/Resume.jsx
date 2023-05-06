@@ -55,6 +55,16 @@ export default function Resume(){
             
             <h3 >Clemson University - School of Computing <img src="./assets/resume/Paw_RGB__Orange.png" width="50px" style={{"vertical-align": "middle"}}/> </h3>
             <p>
+                Mobile App Developer - Full Stack (January 2023 - May 2023)
+                <br />
+                <ul>
+                    <li>Worked with Clemson's Cooperative Extension and College of Agriculture, Forestry, and Life Sciences to develop iOS and Android apps for their WalkSC Program.</li>
+                    <li>Built an app in React Native that has feature parity across platforms.</li>
+                    <li>Setup and maintained cloud infrastructure on AWS to run an API and Database, and manage DNS records.</li>
+                    <li>Created detailed technical documentation on how to setup the backend infrastructure from scratch and detailed app processes for future developers.</li>
+                </ul>
+            </p>
+            <p>
                 Lead Teaching Assistant (January 2022 - May 2022)
                 <br />
                 <ul>
