@@ -23,14 +23,14 @@ export default function Home(){
                     <img className='pictureBorder' src="./assets/index/portrait.jpeg" alt="Patrick Smathers" width="25%" style={{"float": "right", "marginLeft": "100px"}} />
                     <h2>About Me</h2>
                     <p>
-                        I am currently in my third and final year at Clemson University working towards a B.S. in Computer Science. I enjoy running and photography in my spare time. After graduation this May, I will be joing <a id="links" href="https://www.lpl.com">LPL Financial</a> as a software developer. Feel free to look around this site to learn more about me, what I've done, and what I'm interested in.
+                        I graduated from Clemson Univeristy with a Bachelors of Science in Computer Science in May 2023. I am currently working as a Software Developer at <a id="links" href="https://www.lpl.com">LPL Financial</a>. In my free time I enjoy running, photography, and playing video games. Feel free to look around this site to learn more about me, my projects, or look at the some of the pictures I've taken!
                     </p>
 
                     <br/><br/><br/>
 
                     <h2>My Skills</h2>
                     <p>
-                        For languages, I have experience in Java, C++, and C. I also have worked in HTML, CSS (this website was built from scratch using both!), Python, SQL, and C#/.NET. 
+                        For languages, I have experience in Java, C++, and C. I also have worked in HTML, CSS (this website was originally built from scratch this way), Python, SQL, React (the current version of this website), and C#/.NET. 
                         For more details on languages, frameworks, and tools I am familar with, check out the <a id="links" href="/resume">Resume</a> page.
                     </p>
                 </div>

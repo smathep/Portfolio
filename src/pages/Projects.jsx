@@ -10,6 +10,7 @@ export default function Projects(){
             <a id="linkIcon" href="https://github.com/smathep/"> <img src="./assets/resume/GitHub-Mark-Light-120px-plus.png" width="50px" style={{"vertical-align": "middle", "margin": "10px 1%"}}/> </a>
             <div id="content">
 
+
                 <div>
                     <h2>Mandelbrot</h2>
                     <p>
@@ -26,6 +27,17 @@ export default function Projects(){
                     </p>
                 </div>
                 <br/>
+                <div>
+                    <h2>WalkSC</h2>
+                    <p>
+                        I participated in the Capstone program for my senior design class at Clemson and worked with <a id="links" href="https://www.clemson.edu/cafls/index.html">Clemson's College of Agriculture, Forestry, and Life Sciences</a>, and <a id="links" href="https://www.clemson.edu/extension/index.html">Clemson's Cooperative Extension</a> to develop a mobile app for their <a id="links" href="https://walksc.com">WalkSC</a> program. Me and one of my teammates stayed on the following semester to continue developement. The app is designed to help users track and reach a daily step goal as they walk the distance of South Carolina's Palmetto Trail. The app is written in React Native to enable fast development for both iOS and Android and support feature parity. It also uses a Python API and SQL database, both hosted on AWS, for the backend. Right now the app is in beta testing among Cooperative Extension Agents, and hopefully will be publicly released in the later half of 2023 by the next students to work on the project.
+
+                        <img style={{"width": "30%"}} className='projectPictures pictureBorder' src="./assets/projects/WalkSC-1.png" alt="WalkSC Home Screen" />
+                        <img style={{"width": "30%"}} className='projectPictures pictureBorder' src="./assets/projects/WalkSC-2.png" alt="WalkSC Map Page" />
+                    </p>
+                </div>
+                <br/>
+
                 <div>
                     <h2>Fractals.tech</h2>
                     <p>
