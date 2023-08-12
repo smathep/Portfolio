@@ -18,7 +18,7 @@ export default function Resume(){
             
             <div class="table" className='centered'>
                 <ul id="horizontal-list">
-                    <li><img src="./assets/resume/email_icon.png" width="50px" style={{"vertical-align": "middle", "margin-right": "3px"}}/> <a id="links" href="mailto:patrick@patricksmathers.com">patrick@patricksmathers.com</a></li>
+                    <li><img src="./assets/resume/email_icon.png" width="60px" style={{"vertical-align": "middle", "margin-right": "3px"}}/> <a id="links" href="mailto:patrick@patricksmathers.com">patrick@patricksmathers.com</a></li>
                     <li><img src="./assets/resume/LI-In-Bug.png" width="50px" style={{"vertical-align": "middle", "margin-right": "1px"}}/> <a id="links" href="https://www.linkedin.com/in/patrick-smathers/">patrick-smathers</a></li>
                     <li><img src="./assets/resume/GitHub-Mark-Light-120px-plus.png" width="50px" style={{"vertical-align": "middle", "margin-right": "1px"}}/> <a id="links" href="https://github.com/smathep/">smathep</a></li>
                 </ul>
@@ -43,6 +43,9 @@ export default function Resume(){
             <h2>Work Experience</h2>
             
             <h3>LPL Financial</h3>
+            <p>
+                Engineer I, Software Development (June 2023 - Present)
+            </p>
             <p>
                 Technology Intern - Software Devlopment (June 2022 - August 2022)
                 <br />
@@ -117,9 +120,9 @@ export default function Resume(){
             <br />
             <h2>Awards/Recognitions</h2>
             <ul>
-                <li>Palmetto Fellows and STEM enhancement (August 2020 - Present)</li>
+                <li>Palmetto Fellows and STEM enhancement (August 2020 - Spring 2023)</li>
                 <li>President's List - Fall 2020; Fall 2021; Spring 2022</li>
-                <li>Dean's List - Spring 2021</li>
+                <li>Dean's List - Spring 2021; Fall 2022; Spring 2023</li>
                 <li>CUHackit Hackathon Award (Team Project) - Best Use of a .tech Domain (<a id="links" href="http://fractals.iapetus11.me">https://fractals.tech</a> - Has been updated and maintined by my friend on his website!)</li>
                 <li>Inducted into to Upsilon Pi Epsilon - International Computer Science Honors Society - Spring 2022</li>
                 <li> <u><abbr title="Hispanic Scholarship Fund">HSF</abbr></u> Scholar Designation: 2021; 2022 </li>
@@ -130,7 +133,7 @@ export default function Resume(){
             <br />
             <h2>Activites</h2>
             <ul>
-                <li>Clemson Photography Club: Spring 2021 - Present</li>
+                <li>Clemson Photography Club: Spring 2021 - Spring 2022</li>
             </ul>
             
             <br />

@@ -4,16 +4,10 @@ import React from "react"
 // import ReactDOM from 'react-dom/client';
 export default function Home(){
     return (
-        // <div><p>TestHome</p></div>
         <div>
-            {/* <Navbar /> */}
-            {/* <h1>Home</h1> */}
-            {/* <Navbar/> */}
-            {/* <div id="root"></div> */}
             <div id="content">
 
                 <br />
-                {/* <h1 style={{"text-align": "center", "background-color": "var(--purple)", "border": "20px solid var(--purple)"}}>Hello! My name is Patrick Smathers</h1> */}
                 <h1 style={{"text-align": "center", "marginTop":"20px", "marginBottom":"20px"}}>Hello! My name is Patrick Smathers</h1>
                 
                 
@@ -42,7 +36,7 @@ export default function Home(){
         
                     <h2>Links:</h2>
                     <p>
-                        <a id="linkIcon" href="mailto:patrick@patricksmathers.com"> <img src="./assets/resume/email_icon.png" style={{"vertical-align": "middle", "width": "8%"}}/> </a> 
+                        <a id="linkIcon" href="mailto:patrick@patricksmathers.com"> <img src="./assets/resume/email_icon.png" style={{"vertical-align": "middle", "width": "10%"}}/> </a> 
             
                         <a id="linkIcon" href="https://www.linkedin.com/in/patrick-smathers/"> <img src="./assets/resume/LI-In-Bug.png" width="8%" style={{"vertical-align": "middle", "margin-left": "5%", "margin-right": "4%"}}/> </a>
             
