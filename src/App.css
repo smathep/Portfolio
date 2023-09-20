@@ -155,23 +155,26 @@ ul#horizontal-list li{
   padding-right: 10px;
 }
 
-.row{
+.pictures-container{
   display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 5px;
+  height: 200px;
 }
 
-.column{
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+.pictures-container img{
+  max-height: 100%;
+  flex-shrink: 2;
+  width: auto;
+  
+  border: 1px solid var(--border-color) !important;
 }
 
-.column img{
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-  border: 2px solid var(--border-color) !important;
+.pictures-container img:hover{
+  transform: scale(1.05);
+  transition: transform 0.25s ease;
+  cursor: pointer;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
