@@ -43,6 +43,7 @@
   --negativeBodyMargin: -10%;
   --bodyMargin: 10%;
   --border-color: rgba(255, 255, 255, 0.402);
+  font-size: 18px;
 }
 
 body{
@@ -62,7 +63,8 @@ h1{
 }
 
 h2{
-  text-align: center;
+  text-align: left;
+  padding: 0 15px
 }
 
 h3{

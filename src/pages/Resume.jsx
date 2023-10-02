@@ -41,7 +41,7 @@ export default function Resume(){
             <br/>
             <br/>
             <h2>Work Experience</h2>
-            
+            <br/>
             <h3>LPL Financial</h3>
             <p>
                 Engineer I, Software Development (June 2023 - Present)
@@ -95,7 +95,6 @@ export default function Resume(){
                 </ul>
             </p>
             <br />
-            <br />
             <h2>Skills</h2>
             <ul>
                 <li>
@@ -106,7 +105,6 @@ export default function Resume(){
                 </li>
             </ul>
             <br />
-            <br />
             <h2>Projects</h2>
             <p>Check out the Projects page for more detail!</p>
             <ul>
@@ -116,7 +114,6 @@ export default function Resume(){
                 <li><a id="links" href="http://fractals.iapetus11.me">Fractals.tech</a> - Group hackathon project where users can create different types of fractals on a website, modify their parameters and appearance, and download the image. Won a category award for using a .tech domain. </li> 
             </ul>
             
-            <br />
             <br />
             <h2>Awards/Recognitions</h2>
             <ul>
@@ -130,13 +127,11 @@ export default function Resume(){
             </ul>
             
             <br />
-            <br />
             <h2>Activites</h2>
             <ul>
                 <li>Clemson Photography Club: Spring 2021 - Spring 2022</li>
             </ul>
             
-            <br />
             <br />
             <h2>Interests</h2>
             <ul>
