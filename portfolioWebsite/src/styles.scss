@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    // font-size: calc(10px + 2vmin);
     color: white;
     /* color: black; */
 }
@@ -59,17 +59,17 @@ body{
 h1{
     /* top right bottom left */
     /* padding: 0% 10% 0 10%; */
+    font: 1.5rem;
     text-align: center;
 }
 
 h2{
     text-align: left;
-    padding: 0 15px
 }
 
 h3{
     text-align: left;
-    padding: 0 15px
+    // padding: 0 15px
 }
 
 p{
@@ -116,16 +116,14 @@ p{
 
 #linkIcon{
     text-decoration: none;
-}
-
-.pictureBorder{
-    border: 2px solid var(--border-color) !important;
+    vertical-align: middle;
 }
 
 .projectPictures{
     margin: 5px;
-    /* border: 10px solid var(--purple) !important; */
-    /* border: 2px solid rgba(255, 255, 255, 0.402) !important; */
+    // border: 10px solid var(--purple) !important; 
+    border: 1px solid rgba(255, 255, 255, 0.402) !important; 
+    // border-radius: 2px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -143,23 +141,9 @@ p{
     text-align: center;
 }
 
-.table{
-    display: table;
-    margin: 0 auto;
-}
-
-ul#horizontal-list{
-    list-style: none;
-    padding-top: 20px;
-}
-ul#horizontal-list li{
-    display: inline;
-    padding-right: 10px;
-}
-
 .pictures-container{
-    display: flex;
-    flex-flow: row wrap;
+    display: flex !important;
+    flex-flow: row wrap !important;
     justify-content: center;
     gap: 5px;
     height: 200px;
