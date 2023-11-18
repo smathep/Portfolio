@@ -1,0 +1,23 @@
+.centered{
+    text-align: center;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+ul#horizontal-list{
+    list-style: none;
+    // padding-top: 10px;
+}
+
+ul#horizontal-list li{
+    display: inline;
+    padding-right: 10px;
+}
+
+ul#horizontal-list li img{
+    vertical-align: middle;
+    margin-right: 1px;
+}
