@@ -1,0 +1,5 @@
+<div class="pictures-container" >
+    <div *ngFor="let image of ImageFileNames" >
+        <img src="../../assets/photography/proxies/{{image}}" alt="image" width="300" height="200" (click)="openWindow('../../assets/photography/highRes/'+image)">
+    </div>
+</div>
