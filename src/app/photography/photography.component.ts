@@ -16,7 +16,7 @@ import { PortfolioServiceService } from "../portfolio-service.service";
   })
   export class PhotographyComponent {
     title = 'photography';
-    S3FolderPath = 'photography/mainPage';
+    S3FolderPath = '/mainPage';
 
     imageGallery: ImageGalleryComponent;
 
