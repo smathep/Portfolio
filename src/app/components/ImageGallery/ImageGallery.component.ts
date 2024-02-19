@@ -16,6 +16,9 @@ import { PortfolioServiceService } from "../../portfolio-service.service";
 export class ImageGalleryComponent implements OnInit{
     @Input() S3FolderPath!: string;
     ImageFileNames: any;
+    ProxyBaseUrl: string = "";
+    HighResbaseUrl: string = "";
+    S3PhotographyFolderPath = "../../assets/photography"
 
     private service = inject(PortfolioServiceService);
 
@@ -39,11 +42,13 @@ export class ImageGalleryComponent implements OnInit{
     }
 
     openWindow(image: any) {
-        window.open(image);
+        window.open(`${this.HighResbaseUrl}/${image}`);
     }
 
     ngOnInit(): void {
         this.ImageFileNames = this.getImageList();
+        this.ProxyBaseUrl = this.S3PhotographyFolderPath + this.S3FolderPath + '/proxies';
+        this.HighResbaseUrl = this.S3PhotographyFolderPath + this.S3FolderPath + '/highRes';
     }
 
 }
