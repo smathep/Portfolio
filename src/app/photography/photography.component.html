@@ -6,11 +6,6 @@
         <p>This is a small subset of the photos I have taken, so if you'd like to see more, go <a id="links" href="https://photos.app.goo.gl/pYjoG73f0xN4Y2By1">here to check out some more pictures!</a> </p>
     </div>
 
-    <div class="pictures-container" >
-        <div *ngFor="let image of imageFileNames">
-        
-            <img src="../../assets/photography/proxies/{{image}}" alt="image" width="300" height="200" (click)="openWindow('../../assets/photography/proxies/'+image)">
-        </div>
-    </div>
-    <!-- <ImageGallery></ImageGallery> -->
+    
+    <imageGallery [S3FolderPath]="S3FolderPath"></imageGallery>
 </div> 
