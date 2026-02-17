@@ -1,11 +1,18 @@
-<nav class="navbar">
-    <div class="navbar-logo">
+<nav class="navbar" [class.scrolled]="isScrolled">
+    <div class="navbar-inner">
+        <a routerLink="" class="navbar-brand">Patrick Smathers</a>
+
+        <button class="hamburger" (click)="toggleMenu()" [class.active]="menuOpen" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="navbar-links" [class.open]="menuOpen">
+            <li><a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="closeMenu()">Home</a></li>
+            <li><a routerLink="resume" routerLinkActive="active" (click)="closeMenu()">Resume</a></li>
+            <li><a routerLink="projects" routerLinkActive="active" (click)="closeMenu()">Projects</a></li>
+            <li><a routerLink="photography" routerLinkActive="active" (click)="closeMenu()">Photography</a></li>
+        </ul>
     </div>
-    <ul class="navbar-links">
-        <li><p>Patrick Smathers</p></li>
-        <li><a routerLink="">Home</a></li>
-        <li><a routerLink="resume">Resume</a></li>
-        <li><a routerLink="projects">Projects</a></li>
-        <li><a routerLink="photography">Photography</a></li>
-    </ul>
 </nav>

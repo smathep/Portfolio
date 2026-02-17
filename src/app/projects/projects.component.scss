@@ -1,0 +1,133 @@
+.projects-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page-subtitle {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #94a3b8;
+    text-decoration: none;
+    padding: 0.5rem 1.25rem;
+    border-radius: 999px;
+    background: rgba(30, 41, 59, 0.6);
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.25s;
+
+    img {
+        width: 22px;
+        height: 22px;
+    }
+
+    &:hover {
+        color: #f1f5f9;
+        border-color: rgba(148, 163, 184, 0.3);
+        transform: translateY(-1px);
+    }
+}
+
+.projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.project-card {
+    background: rgba(30, 41, 59, 0.4);
+    border: 1px solid rgba(148, 163, 184, 0.08);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        border-color: rgba(148, 163, 184, 0.2);
+        transform: translateY(-2px);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.project-content {
+    padding: 2rem;
+
+    h2 {
+        margin-top: 0;
+        font-size: 1.4rem;
+        color: #f1f5f9;
+        margin-bottom: 0.75rem;
+    }
+
+    p {
+        color: #94a3b8;
+        line-height: 1.8;
+        margin: 0;
+    }
+}
+
+.project-images {
+    display: flex;
+    gap: 0;
+    overflow: hidden;
+    border-top: 1px solid rgba(148, 163, 184, 0.06);
+
+    .project-img {
+        flex: 1;
+        width: 33.33%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    &.mobile-screenshots {
+        justify-content: center;
+        padding: 1.5rem;
+        gap: 1rem;
+        background: rgba(15, 23, 42, 0.3);
+
+        .project-img {
+            width: auto;
+            max-width: 200px;
+            flex: 0 0 auto;
+            border-radius: 12px;
+            border: 1px solid rgba(148, 163, 184, 0.1);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-page {
+        padding: 1rem;
+    }
+
+    .project-content {
+        padding: 1.5rem;
+    }
+
+    .project-images {
+        flex-direction: column;
+
+        .project-img {
+            width: 100%;
+        }
+
+        &.mobile-screenshots {
+            flex-direction: row;
+
+            .project-img {
+                max-width: 45%;
+            }
+        }
+    }
+}
