@@ -1,11 +1,11 @@
 import { Component, Input, OnInit, inject } from "@angular/core";
 import { Injectable } from "@angular/core";
-import { CommonModule } from "@angular/common";
+
 import { PortfolioServiceService } from "../../portfolio-service.service";
 
 @Component({
     selector: 'imageGallery',
-    imports: [CommonModule],
+    imports: [],
     templateUrl: './ImageGallery.component.html',
     styleUrls: ['./ImageGallery.component.scss'],
     providers: [PortfolioServiceService]

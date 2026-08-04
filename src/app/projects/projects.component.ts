@@ -1,11 +1,11 @@
 import { Component } from "@angular/core";
-import { CommonModule } from "@angular/common";
+
 import { RouterOutlet } from "@angular/router";
 import { NavbarComponent } from "../components/navbar/navbar.component";
 
 @Component({
     selector: 'projects',
-    imports: [CommonModule, RouterOutlet, NavbarComponent],
+    imports: [RouterOutlet, NavbarComponent],
     templateUrl: './projects.component.html',
     styleUrls: ['./projects.component.scss']
 })

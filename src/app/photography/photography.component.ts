@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { CommonModule } from "@angular/common";
+
 import { RouterOutlet } from "@angular/router";
 import { NavbarComponent } from "../components/navbar/navbar.component";
 import { HttpClient } from '@angular/common/http';
@@ -8,7 +8,7 @@ import { PortfolioServiceService } from "../portfolio-service.service";
 
 @Component({
     selector: 'photography',
-    imports: [CommonModule, RouterOutlet, NavbarComponent, ImageGalleryComponent],
+    imports: [RouterOutlet, NavbarComponent, ImageGalleryComponent],
     templateUrl: './photography.component.html',
     styleUrls: ['./photography.component.scss']
 })
