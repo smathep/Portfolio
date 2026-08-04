@@ -1,17 +1,15 @@
 import { Component, Input, OnInit, inject } from "@angular/core";
 import { Injectable } from "@angular/core";
-import { CommonModule } from "@angular/common";
-import { HttpClientModule } from "@angular/common/http";
+
 import { PortfolioServiceService } from "../../portfolio-service.service";
 
 @Component({
     selector: 'imageGallery',
-    standalone: true,
-    imports: [CommonModule, HttpClientModule],
+    imports: [],
     templateUrl: './ImageGallery.component.html',
     styleUrls: ['./ImageGallery.component.scss'],
     providers: [PortfolioServiceService]
-  })
+})
 
 export class ImageGalleryComponent implements OnInit{
     @Input() S3FolderPath!: string;

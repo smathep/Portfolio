@@ -1,5 +1,5 @@
 import { APP_BASE_HREF } from '@angular/common';
-import { CommonEngine } from '@angular/ssr';
+import { CommonEngine } from '@angular/ssr/node';
 import express from 'express';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve } from 'node:path';
@@ -12,7 +12,14 @@ export function app(): express.Express {
   const browserDistFolder = resolve(serverDistFolder, '../browser');
   const indexHtml = join(serverDistFolder, 'index.server.html');
 
-  const commonEngine = new CommonEngine();
+  const commonEngine = new CommonEngine({
+    // Angular v21 validates the incoming request host before server rendering.
+    // Unknown hosts silently fall back to client-side rendering today and will
+    // return 400 in a future major. Set NG_ALLOWED_HOSTS (comma separated) to
+    // the public domain in deployed environments; it takes precedence over this
+    // default, which only covers local development.
+    allowedHosts: ['localhost'],
+  });
 
   server.set('view engine', 'html');
   server.set('views', browserDistFolder);

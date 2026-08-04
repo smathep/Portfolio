@@ -1,5 +1,7 @@
 <div class="pictures-container" >
-    <div *ngFor="let image of ImageFileNames" >
-        <img src="{{ProxyBaseUrl}}/{{image}}" alt="image" width="300" height="200" (click)="openWindow(image)">
+  @for (image of ImageFileNames; track image) {
+    <div >
+      <img src="{{ProxyBaseUrl}}/{{image}}" alt="image" width="300" height="200" (click)="openWindow(image)">
     </div>
+  }
 </div>
