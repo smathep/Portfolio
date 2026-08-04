@@ -6,12 +6,10 @@ import { HomepageComponent } from '../homepage/homepage.component';
 // import { MatToolbar } from '@angular/material/toolbar';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet, NavbarComponent, HomepageComponent],
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
-  
+    selector: 'app-root',
+    imports: [CommonModule, RouterOutlet, NavbarComponent, HomepageComponent],
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss']
 })
 export class AppRoot {
   title = 'app-root';

@@ -8,12 +8,10 @@ import { PortfolioServiceService } from "../portfolio-service.service";
 
 @Component({
     selector: 'photography',
-    standalone: true,
     imports: [CommonModule, RouterOutlet, NavbarComponent, ImageGalleryComponent],
     templateUrl: './photography.component.html',
     styleUrls: ['./photography.component.scss']
-    
-  })
+})
   export class PhotographyComponent {
     title = 'photography';
     S3FolderPath = '/mainPage';

@@ -5,12 +5,10 @@ import { NavbarComponent } from "../components/navbar/navbar.component";
 
 @Component({
     selector: 'projects',
-    standalone: true,
     imports: [CommonModule, RouterOutlet, NavbarComponent],
     templateUrl: './projects.component.html',
     styleUrls: ['./projects.component.scss']
-    
-  })
+})
   export class ProjectsComponent {
     title = 'projects';
   }

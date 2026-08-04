@@ -5,12 +5,10 @@ import { NavbarComponent } from '../components/navbar/navbar.component';
 // import { MatToolbar } from '@angular/material/toolbar';
 
 @Component({
-  selector: 'homepage',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet, NavbarComponent],
-  templateUrl: './homepage.component.html',
-  styleUrls: ['./homepage.component.scss']
-  
+    selector: 'homepage',
+    imports: [CommonModule, RouterOutlet, NavbarComponent],
+    templateUrl: './homepage.component.html',
+    styleUrls: ['./homepage.component.scss']
 })
 export class HomepageComponent {
   title = 'homepage';

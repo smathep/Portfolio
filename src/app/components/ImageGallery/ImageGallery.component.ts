@@ -5,12 +5,11 @@ import { PortfolioServiceService } from "../../portfolio-service.service";
 
 @Component({
     selector: 'imageGallery',
-    standalone: true,
     imports: [CommonModule],
     templateUrl: './ImageGallery.component.html',
     styleUrls: ['./ImageGallery.component.scss'],
     providers: [PortfolioServiceService]
-  })
+})
 
 export class ImageGalleryComponent implements OnInit{
     @Input() S3FolderPath!: string;
